@@ -1,9 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "PandaYouxuan",
 			"path": "."
 		},
 		{
+			"name": "PandaYouxuan-admin",
 			"path": "../Downloads/PandaYouxuan-admin"
 		}
 	],
