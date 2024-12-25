@@ -1,0 +1,22 @@
+server:
+  port: 9160  # 自定义的服务端口（Tomcat）
+
+# 配置数据库连接信息
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_pandaYouxuan?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: woshishen94SHEN
+
+  # Redis 的相关配置
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+# mybatis 的配置
+mybatis:
+  config-location: classpath:/mybatis-config.xml
+  mapper-locations: classpath:/mapper/*/*.xml
