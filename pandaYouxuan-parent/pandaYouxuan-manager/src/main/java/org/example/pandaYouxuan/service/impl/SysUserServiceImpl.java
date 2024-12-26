@@ -29,7 +29,7 @@ public class SysUserServiceImpl implements SysUserService {
     public LoginVo login(LoginDto loginDto) {
 
         // 根据用户名查询用户
-        SysUser sysUser = sysUserMapper.selectByUserName(loginDto.getUserName());
+        SysUser sysUser = sysUserMapper.selectByUserName(loginDto.getUsername());
         if (sysUser == null) {
             throw new PandaException(ResultCodeEnum.LOGIN_ERROR);
         }

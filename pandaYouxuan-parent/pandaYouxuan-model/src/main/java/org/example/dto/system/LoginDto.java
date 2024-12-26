@@ -8,7 +8,7 @@ import lombok.Data;
 public class LoginDto {
 
     @Schema(description = "用户名")
-    private String userName ;
+    private String username ;
 
     @Schema(description = "密码")
     private String password ;

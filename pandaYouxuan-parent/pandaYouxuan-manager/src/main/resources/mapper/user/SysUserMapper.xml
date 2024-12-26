@@ -4,8 +4,8 @@
 
     <!-- 定义可重用的SQL片段 -->
     <sql id="columns">
-        id As userId,
-        username AS userName,
+        id,
+        username,
         password,
         name,
         phone,

@@ -1,717 +1,81 @@
-2024-12-25 11:55:34 Starting ManagerApplication using Java 17.0.12 with PID 92255 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 11:55:34 The following 1 profile is active: "dev"
-2024-12-25 11:55:34 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 11:55:34 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 11:55:34 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 11:55:34 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 11:55:34 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 11:55:34 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 13:49:26 Starting ManagerApplication using Java 17.0.12 with PID 93573 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 13:49:26 The following 1 profile is active: "dev"
-2024-12-25 13:49:26 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 13:49:26 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 13:49:26 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 13:49:26 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 13:49:26 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 13:49:26 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 13:55:45 Starting ManagerApplication using Java 17.0.12 with PID 94083 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 13:55:45 The following 1 profile is active: "dev"
-2024-12-25 13:55:45 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 13:55:45 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 13:55:45 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 13:55:45 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 13:55:45 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 13:55:45 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 13:59:46 Starting ManagerApplication using Java 17.0.12 with PID 94367 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 13:59:46 The following 1 profile is active: "dev"
-2024-12-25 13:59:46 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 13:59:46 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 13:59:46 Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2024-12-25 13:59:46 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 13:59:46 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 13:59:46 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:03:56 Starting ManagerApplication using Java 17.0.12 with PID 94683 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:03:56 The following 1 profile is active: "dev"
-2024-12-25 14:03:56 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:03:56 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:03:56 Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:03:56 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:03:56 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:03:56 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:05:48 Starting ManagerApplication using Java 17.0.12 with PID 94848 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:05:48 The following 1 profile is active: "dev"
-2024-12-25 14:05:48 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:05:48 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:05:48 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:05:48 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:05:48 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:05:48 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:06:16 Starting ManagerApplication using Java 17.0.12 with PID 94880 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:06:16 The following 1 profile is active: "dev"
-2024-12-25 14:06:16 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:06:16 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:06:16 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:06:16 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:06:16 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:06:16 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:06:26 Starting ManagerApplication using Java 17.0.12 with PID 94905 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:06:26 The following 1 profile is active: "dev"
-2024-12-25 14:06:26 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:06:26 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:06:26 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:06:26 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:06:26 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:06:26 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:13:38 Starting ManagerApplication using Java 17.0.12 with PID 97200 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:13:38 The following 1 profile is active: "dev"
-2024-12-25 14:13:39 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:13:39 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:13:39 Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:13:39 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:13:39 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:13:39 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:19:53 Starting ManagerApplication using Java 17.0.12 with PID 97736 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:19:53 The following 1 profile is active: "dev"
-2024-12-25 14:19:53 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:19:53 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:19:53 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:19:53 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:19:53 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:19:53 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:21:17 Starting ManagerApplication using Java 17.0.12 with PID 97861 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:21:17 The following 1 profile is active: "dev"
-2024-12-25 14:21:17 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:21:17 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:21:17 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:21:18 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:21:18 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:21:18 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:21:45 Starting ManagerApplication using Java 17.0.12 with PID 97901 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:21:45 The following 1 profile is active: "dev"
-2024-12-25 14:21:45 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:21:45 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:21:45 Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:21:45 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:21:45 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:21:45 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:21:57 Starting ManagerApplication using Java 17.0.12 with PID 97923 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:21:57 The following 1 profile is active: "dev"
-2024-12-25 14:21:57 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:21:57 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:21:57 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:21:58 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:21:58 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:21:58 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:26:44 Starting ManagerApplication using Java 17.0.12 with PID 98385 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:26:44 The following 1 profile is active: "dev"
-2024-12-25 14:26:45 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:26:45 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:26:45 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:26:45 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:26:45 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:26:45 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:26:50 Starting ManagerApplication using Java 17.0.12 with PID 98397 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:26:50 The following 1 profile is active: "dev"
-2024-12-25 14:26:50 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:26:50 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:26:50 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:26:50 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:26:50 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:26:50 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:30:42 Starting ManagerApplication using Java 17.0.12 with PID 98684 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:30:42 The following 1 profile is active: "dev"
-2024-12-25 14:30:42 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:30:42 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:30:42 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:30:42 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:30:42 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:30:43 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:11)
-2024-12-25 14:37:48 Starting ManagerApplication using Java 17.0.12 with PID 99214 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:37:48 The following 1 profile is active: "dev"
-2024-12-25 14:37:49 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:37:49 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:37:49 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:37:49 Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-2024-12-25 14:37:49 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-25 14:37:49 Application run failed
-java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getTypeForFactoryBeanFromAttributes(FactoryBeanRegistrySupport.java:86)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:837)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:621)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
-	at org.example.pandaYouxuan.ManagerApplication.main(ManagerApplication.java:13)
-2024-12-25 14:40:40 Starting ManagerApplication using Java 17.0.12 with PID 99522 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 14:40:40 The following 1 profile is active: "dev"
-2024-12-25 14:40:40 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 14:40:40 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 14:40:40 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 14:40:41 Tomcat initialized with port(s): 9160 (http)
-2024-12-25 14:40:41 Initializing ProtocolHandler ["http-nio-9160"]
-2024-12-25 14:40:41 Starting service [Tomcat]
-2024-12-25 14:40:41 Starting Servlet engine: [Apache Tomcat/10.1.7]
-2024-12-25 14:40:41 Initializing Spring embedded WebApplicationContext
-2024-12-25 14:40:41 Root WebApplicationContext: initialization completed in 872 ms
-2024-12-25 14:40:42 Starting ProtocolHandler ["http-nio-9160"]
-2024-12-25 14:40:42 Tomcat started on port(s): 9160 (http) with context path ''
-2024-12-25 14:40:42 Started ManagerApplication in 2.141 seconds (process running for 2.6)
-2024-12-25 14:56:29 Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25 14:56:29 Initializing Servlet 'dispatcherServlet'
-2024-12-25 14:56:29 Completed initialization in 3 ms
-2024-12-25 14:56:30 Init duration for springdoc-openapi is: 115 ms
-2024-12-25 14:56:54 HikariPool-1 - Starting...
-2024-12-25 14:56:55 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bd9f36c
-2024-12-25 14:56:55 HikariPool-1 - Start completed.
-2024-12-25 14:56:55 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 用户名或密码错误] with root cause
-java.lang.RuntimeException: 用户名或密码错误
-	at org.example.pandaYouxuan.service.impl.SysUserServiceImpl.login(SysUserServiceImpl.java:39)
-	at org.example.pandaYouxuan.controller.IndexController.login(IndexController.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2024-12-25 14:57:30 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 用户名或密码错误] with root cause
-java.lang.RuntimeException: 用户名或密码错误
-	at org.example.pandaYouxuan.service.impl.SysUserServiceImpl.login(SysUserServiceImpl.java:39)
-	at org.example.pandaYouxuan.controller.IndexController.login(IndexController.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2024-12-25 14:57:36 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 用户名或密码错误] with root cause
-java.lang.RuntimeException: 用户名或密码错误
-	at org.example.pandaYouxuan.service.impl.SysUserServiceImpl.login(SysUserServiceImpl.java:39)
-	at org.example.pandaYouxuan.controller.IndexController.login(IndexController.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2024-12-25 14:57:44 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 用户名或密码错误] with root cause
-java.lang.RuntimeException: 用户名或密码错误
-	at org.example.pandaYouxuan.service.impl.SysUserServiceImpl.login(SysUserServiceImpl.java:39)
-	at org.example.pandaYouxuan.controller.IndexController.login(IndexController.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2024-12-25 15:11:44 HikariPool-1 - Shutdown initiated...
-2024-12-25 15:11:45 HikariPool-1 - Shutdown completed.
-2024-12-25 15:24:43 Starting ManagerApplication using Java 17.0.12 with PID 3306 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 15:24:43 The following 1 profile is active: "dev"
-2024-12-25 15:24:44 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 15:24:44 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 15:24:44 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2024-12-25 15:24:44 Tomcat initialized with port(s): 9160 (http)
-2024-12-25 15:24:44 Initializing ProtocolHandler ["http-nio-9160"]
-2024-12-25 15:24:44 Starting service [Tomcat]
-2024-12-25 15:24:44 Starting Servlet engine: [Apache Tomcat/10.1.7]
-2024-12-25 15:24:44 Initializing Spring embedded WebApplicationContext
-2024-12-25 15:24:44 Root WebApplicationContext: initialization completed in 1016 ms
-2024-12-25 15:24:45 Starting ProtocolHandler ["http-nio-9160"]
-2024-12-25 15:24:45 Tomcat started on port(s): 9160 (http) with context path ''
-2024-12-25 15:24:45 Started ManagerApplication in 2.386 seconds (process running for 2.979)
-2024-12-25 15:26:21 Starting ManagerApplication using Java 17.0.12 with PID 3431 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
-2024-12-25 15:26:21 The following 1 profile is active: "dev"
-2024-12-25 15:26:21 Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-25 15:26:21 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-25 15:26:21 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-25 15:26:22 Tomcat initialized with port(s): 9160 (http)
-2024-12-25 15:26:22 Initializing ProtocolHandler ["http-nio-9160"]
-2024-12-25 15:26:22 Starting service [Tomcat]
-2024-12-25 15:26:22 Starting Servlet engine: [Apache Tomcat/10.1.7]
-2024-12-25 15:26:22 Initializing Spring embedded WebApplicationContext
-2024-12-25 15:26:22 Root WebApplicationContext: initialization completed in 946 ms
-2024-12-25 15:26:23 Starting ProtocolHandler ["http-nio-9160"]
-2024-12-25 15:26:23 Tomcat started on port(s): 9160 (http) with context path ''
-2024-12-25 15:26:23 Started ManagerApplication in 2.431 seconds (process running for 2.815)
-2024-12-25 15:26:35 Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25 15:26:35 Initializing Servlet 'dispatcherServlet'
-2024-12-25 15:26:35 Completed initialization in 2 ms
-2024-12-25 15:26:35 HikariPool-1 - Starting...
-2024-12-25 15:26:35 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@624b7754
-2024-12-25 15:26:35 HikariPool-1 - Start completed.
-2024-12-25 15:28:16 HikariPool-1 - Shutdown initiated...
-2024-12-25 15:28:16 HikariPool-1 - Shutdown completed.
+2024-12-25 15:43:32 Starting ManagerApplication using Java 17.0.12 with PID 4997 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
+2024-12-25 15:43:32 The following 1 profile is active: "dev"
+2024-12-25 15:43:32 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-25 15:43:32 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-25 15:43:32 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-12-25 15:43:33 Tomcat initialized with port(s): 9160 (http)
+2024-12-25 15:43:33 Initializing ProtocolHandler ["http-nio-9160"]
+2024-12-25 15:43:33 Starting service [Tomcat]
+2024-12-25 15:43:33 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-12-25 15:43:33 Initializing Spring embedded WebApplicationContext
+2024-12-25 15:43:33 Root WebApplicationContext: initialization completed in 1095 ms
+2024-12-25 15:43:34 Starting ProtocolHandler ["http-nio-9160"]
+2024-12-25 15:43:34 Tomcat started on port(s): 9160 (http) with context path ''
+2024-12-25 15:43:34 Started ManagerApplication in 2.763 seconds (process running for 3.379)
+2024-12-25 15:52:49 Starting ManagerApplication using Java 17.0.12 with PID 5917 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
+2024-12-25 15:52:49 The following 1 profile is active: "dev"
+2024-12-25 15:52:49 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-25 15:52:49 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-25 15:52:49 Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-12-25 15:52:50 Tomcat initialized with port(s): 9160 (http)
+2024-12-25 15:52:50 Initializing ProtocolHandler ["http-nio-9160"]
+2024-12-25 15:52:50 Starting service [Tomcat]
+2024-12-25 15:52:50 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-12-25 15:52:50 Initializing Spring embedded WebApplicationContext
+2024-12-25 15:52:50 Root WebApplicationContext: initialization completed in 848 ms
+2024-12-25 15:52:51 Starting ProtocolHandler ["http-nio-9160"]
+2024-12-25 15:52:51 Tomcat started on port(s): 9160 (http) with context path ''
+2024-12-25 15:52:51 Started ManagerApplication in 2.142 seconds (process running for 2.466)
+2024-12-25 15:54:50 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25 15:54:50 Initializing Servlet 'dispatcherServlet'
+2024-12-25 15:54:50 Completed initialization in 4 ms
+2024-12-25 15:54:53 HikariPool-1 - Starting...
+2024-12-25 15:54:54 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f7d71eb
+2024-12-25 15:54:54 HikariPool-1 - Start completed.
+2024-12-25 16:01:48 Init duration for springdoc-openapi is: 135 ms
+2024-12-25 16:35:46 HikariPool-1 - Shutdown initiated...
+2024-12-25 16:35:46 HikariPool-1 - Shutdown completed.
+2024-12-25 16:35:48 Starting ManagerApplication using Java 17.0.12 with PID 9841 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
+2024-12-25 16:35:48 The following 1 profile is active: "dev"
+2024-12-25 16:35:48 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-25 16:35:48 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-25 16:35:48 Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-12-25 16:35:49 Tomcat initialized with port(s): 9160 (http)
+2024-12-25 16:35:49 Initializing ProtocolHandler ["http-nio-9160"]
+2024-12-25 16:35:49 Starting service [Tomcat]
+2024-12-25 16:35:49 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-12-25 16:35:49 Initializing Spring embedded WebApplicationContext
+2024-12-25 16:35:49 Root WebApplicationContext: initialization completed in 553 ms
+2024-12-25 16:35:49 Starting ProtocolHandler ["http-nio-9160"]
+2024-12-25 16:35:49 Tomcat started on port(s): 9160 (http) with context path ''
+2024-12-25 16:35:49 Started ManagerApplication in 1.361 seconds (process running for 1.584)
+2024-12-25 16:36:02 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25 16:36:02 Initializing Servlet 'dispatcherServlet'
+2024-12-25 16:36:02 Completed initialization in 1 ms
+2024-12-25 16:36:02 HikariPool-1 - Starting...
+2024-12-25 16:36:02 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5cb486
+2024-12-25 16:36:02 HikariPool-1 - Start completed.
+2024-12-25 16:38:57 HikariPool-1 - Shutdown initiated...
+2024-12-25 16:38:57 HikariPool-1 - Shutdown completed.
+2024-12-25 16:39:21 Starting ManagerApplication using Java 17.0.12 with PID 10345 (/Users/fangzhan/PandaYouxuan/pandaYouxuan-parent/pandaYouxuan-manager/target/classes started by fangzhan in /Users/fangzhan/PandaYouxuan)
+2024-12-25 16:39:21 The following 1 profile is active: "dev"
+2024-12-25 16:39:21 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-25 16:39:21 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-25 16:39:21 Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-12-25 16:39:21 Tomcat initialized with port(s): 9160 (http)
+2024-12-25 16:39:21 Initializing ProtocolHandler ["http-nio-9160"]
+2024-12-25 16:39:21 Starting service [Tomcat]
+2024-12-25 16:39:21 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-12-25 16:39:21 Initializing Spring embedded WebApplicationContext
+2024-12-25 16:39:21 Root WebApplicationContext: initialization completed in 533 ms
+2024-12-25 16:39:22 Starting ProtocolHandler ["http-nio-9160"]
+2024-12-25 16:39:22 Tomcat started on port(s): 9160 (http) with context path ''
+2024-12-25 16:39:22 Started ManagerApplication in 1.408 seconds (process running for 1.649)
+2024-12-25 16:39:32 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25 16:39:32 Initializing Servlet 'dispatcherServlet'
+2024-12-25 16:39:32 Completed initialization in 3 ms
+2024-12-25 16:39:32 HikariPool-1 - Starting...
+2024-12-25 16:39:32 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@488a6010
+2024-12-25 16:39:32 HikariPool-1 - Start completed.
+2024-12-25 16:41:12 HikariPool-1 - Shutdown initiated...
+2024-12-25 16:41:12 HikariPool-1 - Shutdown completed.
