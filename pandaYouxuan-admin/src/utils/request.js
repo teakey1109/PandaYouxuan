@@ -7,7 +7,10 @@ const service = axios.create({
   // baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
   baseURL: 'http://localhost:9160',
   // withCredentials: true, // send cookies when cross-domain requests
-  timeout: 5000 // request timeout
+  timeout: 5000, // request timeout
+  headers: {
+    'Content-Type': 'application/json' // 确保请求体是 JSON 格式
+  }
 });
 
 // request interceptor

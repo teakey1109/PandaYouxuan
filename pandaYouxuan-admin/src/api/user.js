@@ -1,9 +1,9 @@
 import request from '@/utils/request';
 
 export function login(data) {
+  console.log('Sending login data:', data); // 调试信息
   return request({
-    // url: '/vue-element-admin/user/login',
-    url: '/admin/system/index/login', // 本地登录接口API路径
+    url: '/admin/system/index/login',
     method: 'post',
     data
   });
